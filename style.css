@@ -13,7 +13,8 @@ body {
 }
 
 h1 {
-  background: #4d4d33;
+  background: #1a651a;
+  color: white;
   padding: 5px 10px 5px 10px;
   border-style: solid;
   border-width: 1px;
