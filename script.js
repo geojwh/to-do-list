@@ -11,7 +11,7 @@ $('input').keypress(function(event){
   if(event.which === 13){
     var todoItem = $(this).val();
     $('ul').append(
-    "<li>" +
+    '<li class="notcomplete">' +
         "<span>" +
           "X" +
         "</span>" +
