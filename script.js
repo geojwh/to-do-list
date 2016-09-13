@@ -11,12 +11,12 @@ $('input').keypress(function(event){
   if(event.which === 13){
     var todoItem = $(this).val();
     $('ul').append(
-    "<li>" + '<a href="#">' +
+    '<li class="notcomplete">' +
         "<span>" +
           "X" +
         "</span>" +
         todoItem +
-    '</a>' + "</li>"
+    "</li>"
     );
     $(this).val('');
   }
