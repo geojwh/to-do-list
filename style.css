@@ -43,10 +43,6 @@ li {
   border: 1px solid grey;
 }
 
-li:hover {
-  cursor: pointer;
-}
-
 input {
   background-color: #f7f7f7;
   margin: 5px 0 5px 0;
@@ -75,11 +71,9 @@ input:focus {
 }
 
 span {
-  background: red;
-  color: white;
+  color: #e6e6e6;
   height: 40px;
   margin: 0 0 0 20px;
-  opacity: 0;
   padding: 3px 15px 3px 15px;
   float: right;
   box-sizing: border-box;
@@ -89,6 +83,21 @@ span {
   border-radius: 5px;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 li:hover span {
+  background: red;
+  color: white;
+  height: 40px;
+  margin: 0 0 0 20px;
   opacity: 1;
+  padding: 3px 15px 3px 15px;
+  float: right;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: x-large;
+  transition: 0.2s linear;
+  border-radius: 5px;
 }
