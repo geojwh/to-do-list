@@ -1,4 +1,4 @@
-to-do-list
+#to-do-list
 
 ###this is a simple to-do list app developed using html, css, and jQuery
 
