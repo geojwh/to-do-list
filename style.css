@@ -87,7 +87,7 @@ li:hover {
   cursor: pointer;
 }
 
-li:hover span {
+span:hover {
   background: red;
   color: white;
   height: 40px;
